@@ -37,7 +37,6 @@ ul,ol{
 
 /* ================navbar section=========== */
 .navbar{
-    background: #000;
     padding: 20px 0;
     position: absolute;
     left: 0;
@@ -58,3 +57,45 @@ ul,ol{
     line-height: normal;
 }
 
+/* =============Banner section============ */
+#banner{
+    position: relative;
+    background: url(../images/banner.png);
+    padding: 291px 156px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_wrapper h1{
+    width: 820px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 55px;
+}
+.banner_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.banner_shap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.banner_shap {
+    width: 100%;
+    
+}
+.banner_shap img{
+    width: 100%;
+
+}
+
+
+/*  */
