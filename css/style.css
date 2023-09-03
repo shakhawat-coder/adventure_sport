@@ -14,11 +14,22 @@ a{
 ul,ol{
     list-style-type: none;
 }
-h6{
+h1,h2,h3,h4,h5,h6,p,.row{
+    margin: 0;
+}
+h5{
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+h6{
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
 }
 .common_btn{
     
@@ -115,7 +126,7 @@ h6{
 #join{
     padding: 72px 0 85px;
 }
-.section_header h6{
+.section_header h5{
     color: #14B9F1;
     font-family: Yellowtail;
 }
@@ -224,7 +235,7 @@ h6{
     padding: 102px 0 83px;
     background: #0C3543;
 }
-#sports_activity .section_header h6{
+#sports_activity .section_header h5{
     color: #FF9600;
 }
 .sports_activity_item_wrapper{
@@ -247,8 +258,41 @@ h6{
 #sports_activity .card .card-body {
     padding: 27px 0 32px;
 }
+#sports_activity .card .card-body h6{
+    width: 250px;
+}
 #sports_activity .card .card-body p{
     padding-top: 24px;
+}
+
+/* =================Why choose us section================== */
+#choose_us{
+    padding: 192px 0 100px;
+}
+#choose_us .section_header h2::after{
+    left: 50%;
+    transform: translateX(-50%);
+}
+#choose_us .card{
+    border: none;
+}
+#choose_us .choose_us_item_wrapper{
+    margin-top: 50px;
+}
+#choose_us .card_image{
+    width: 130px;
+    height: 130px;
+    background: #F2F2FD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#choose_us .card .card-body {
+    padding:  0;
+}
+#choose_us .card .card-body h6{
+    padding:  56px 0 16px;
 }
 /* font-family: 'Yellowtail', cursive; */
 
