@@ -220,3 +220,36 @@ h6{
     padding: 40px 0 45px;
 }
 /* <!-- ================sports Activities================= --> */
+#sports_activity{
+    padding: 102px 0 83px;
+    background: #0C3543;
+}
+#sports_activity .section_header h6{
+    color: #FF9600;
+}
+.sports_activity_item_wrapper{
+    row-gap: 50px;
+    margin-top: 62px;
+}
+#sports_activity .card{
+    background: #0F4152;
+}
+#sports_activity .card .card_image{
+    height: 365px;
+    width: auto;
+    overflow: hidden;
+}
+#sports_activity .card .card_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#sports_activity .card .card-body {
+    padding: 27px 0 32px;
+}
+#sports_activity .card .card-body p{
+    padding-top: 24px;
+}
+/* font-family: 'Yellowtail', cursive; */
+
+/*  */
