@@ -14,6 +14,12 @@ a{
 ul,ol{
     list-style-type: none;
 }
+h6{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .common_btn{
     
     background: #000;
@@ -109,33 +115,31 @@ ul,ol{
 #join{
     padding: 72px 0 85px;
 }
-.join_content h6{
+.section_header h6{
     color: #14B9F1;
     font-family: Yellowtail;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
-.join_content h2{
+.section_header h2{
     position: relative;
     color: #222;
     font-size: 54px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-bottom: 27px;
+    margin: 0;
 }
-.join_content h2::after{
+.section_header h2::after{
     position: absolute;
     content: "";
-    bottom: -27px;
+    bottom: 0;
     left: 0;
     width: 80px;
     height: 2px;
     background: #A0A0A0;
 }
-.join_content p{
-    padding: 62px 0 43px;
+.section_header p{
+    padding: 35px 0 43px;
     margin: 0;
 }
 #join ul{
@@ -187,6 +191,32 @@ ul,ol{
 .join_btn{
     padding: 18px 40px;
 }
-/* font-family: 'Yellowtail', cursive; */
 
-/*  */
+/* ==================Counter section============= */
+#counter{
+    padding-bottom: 203px;
+}
+#counter span{
+    color: #222;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#counter .counter_item1{
+    background: #FFF4E5;
+    padding: 40px 0 45px;
+}
+#counter .counter_item2{
+    background: #E7FDE9;
+    padding: 40px 0 45px;
+}
+#counter .counter_item3{
+    background: #F2F2FD;
+    padding: 40px 0 45px;
+}
+#counter .counter_item4{
+    background: #FDF1F5;
+    padding: 40px 0 45px;
+}
+/* <!-- ================sports Activities================= --> */
