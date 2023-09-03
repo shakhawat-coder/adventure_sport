@@ -336,6 +336,18 @@ h6{
     line-height: normal;
     padding:  30px 0 37px;
 }
+
+/* ==============logo section=========== */
+#logo{
+    padding: 45px 0;
+}
+#logo .logo_item{
+    height: 264px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
 /* font-family: 'Yellowtail', cursive; */
 
 /*  */
