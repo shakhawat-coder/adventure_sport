@@ -54,6 +54,33 @@ h6{
     font-weight: 400;
     line-height: normal;
 }
+.section_header h5{
+    color: #14B9F1;
+    font-family: Yellowtail;
+}
+.section_header h2{
+    position: relative;
+    color: #222;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 4px 0 27px;
+    margin: 0;
+}
+.section_header h2::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background: #A0A0A0;
+}
+.section_header p{
+    padding: 35px 0 43px;
+    margin: 0;
+}
 
 /* ================navbar section=========== */
 .navbar{
@@ -120,39 +147,13 @@ h6{
 }
 .banner_shap img{
     width: 100%;
-
+    display: block;
 }
 /* ===================join section================ */
 #join{
     padding: 72px 0 85px;
 }
-.section_header h5{
-    color: #14B9F1;
-    font-family: Yellowtail;
-}
-.section_header h2{
-    position: relative;
-    color: #222;
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 4px 0 27px;
-    margin: 0;
-}
-.section_header h2::after{
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 80px;
-    height: 2px;
-    background: #A0A0A0;
-}
-.section_header p{
-    padding: 35px 0 43px;
-    margin: 0;
-}
+
 #join ul{
     padding: 40px 0 14px;
     margin-bottom: 0;
@@ -164,6 +165,7 @@ h6{
     font-weight: 400;
     line-height: normal;
     display: flex;
+    align-items: center;
     padding-bottom: 30px;
     margin: 0;
     column-gap: 23px;
@@ -285,6 +287,7 @@ h6{
 }
 
 .vector img{
+    display: block;
     width: 100%;
 }
  /* =====================Video section=========== */
@@ -310,7 +313,6 @@ h6{
     border: 1px solid transparent;
  }
  #video .section_header .vdo_btn:hover{
-    padding: 19px 40px;
     background:  transparent;
     border: 1px solid white;
     color: #ffffff
@@ -471,6 +473,7 @@ h6{
     width: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 /* =============footer section============== */

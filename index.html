@@ -11,6 +11,7 @@
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fa-solid fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -78,7 +79,7 @@
   <!-- ===================Join section========== -->
   <section id="join">
     <div class="container">
-      <div class="row">
+      <div class="row flex-sm-column row-gap-4">
         <div class="col-lg-6">
           <div class="section_header">
             <h5>Feel The Excitement</h5>
@@ -105,16 +106,16 @@
           </ul>
           <a class="common_btn join_btn d-inline-block">Discover More</a>
         </div>
-        <div class="col-lg-6">
-          <div class="join_img row mx-0 align-items-center">
-            <div class="col-lg-6">
+        <div class="col-lg-6 p-0">
+          <div class="join_img row mx-0 align-items-center ">
+            <div class="col-lg-6 p-0">
               <div class="join_img1" |>
                 <picture>
                   <img src="./images/join2.png" alt="" />
                 </picture>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 p-0">
               <div class="join_img2" |>
                 <picture>
                   <img src="./images/join1.png" alt="" />
@@ -169,10 +170,13 @@
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1">
-          <p class="common_p text-white">Dolor sit amet consectetur adipiscing elit sed con eiusmod tempor incididunt
-            labore etys
-            dolore magna aliqua. Quis ipsum suspendisse ultrices gravida risus ipsum dolore commodo viverra maecenas.
-          </p>
+          <div class="section_header">
+            <p class="common_p text-white">Dolor sit amet consectetur adipiscing elit sed con eiusmod tempor incididunt
+              labore etys
+              dolore magna aliqua. Quis ipsum suspendisse ultrices gravida risus ipsum dolore commodo viverra maecenas.
+            </p>
+          </div>
+
         </div>
       </div>
       <div class="row sports_activity_item_wrapper">
@@ -268,7 +272,7 @@
     <div class="container">
       <div class="section_header text-center">
         <div class="vdo_logo">
-          <img src="./images/logo1.png" alt="">
+          <img src="./images/logo2.png" alt="">
         </div>
         <h2 class="text-white">Extreme Sports Will Test Your Limits And Push The Boundaries To The Max</h>
           <h5 class="text-white">Be Prepared To Experience The New Adventures</h5>
@@ -277,7 +281,7 @@
             <a class="common_btn vdo_btn" href="#"><i class="fa-solid fa-play"></i>View the demo</a>
           </div>
       </div>
-      <div class="row">
+      <div class="row video_item_wrapper">
         <div class="col-lg-4">
           <div class="vdo_wrapper">
             <div class="vdo_item">
@@ -412,10 +416,12 @@
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1">
-          <p class="common_p">Dolor sit amet consectetur adipiscing elit sed con eiusmod tempor incididunt
-            labore etys
-            dolore magna aliqua. Quis ipsum suspendisse ultrices gravida risus ipsum dolore commodo viverra maecenas.
-          </p>
+          <div class="section_header">
+            <p class="common_p">Dolor sit amet consectetur adipiscing elit sed con eiusmod tempor incididunt
+              labore etys
+              dolore magna aliqua. Quis ipsum suspendisse ultrices gravida risus ipsum dolore commodo viverra maecenas.
+            </p>
+          </div>
         </div>
       </div>
       <div class="row news_item_wrapper">
@@ -492,7 +498,7 @@
   </section>
   <!-- ==============footer section============== -->
   <footer class="position-relative">
-    <div class="footer_image position-absolute">
+    <div class="footer_image position-absolute top-0 start-0 d-none d-sm-block">
       <img src="./images/footer-image.jpg" alt="">
     </div>
     <div class="container">
@@ -501,18 +507,18 @@
           <div class="footer_logo">
             <img src="./images/logo.png" alt="">
           </div>
-          <div class=" d-flex align-items-center justify-content-between">
-            <div class="">
+          <div class="footer_top d-flex">
+            <div class="col-auto order-2">
               <a class="common_btn footer_btn d-inline-block">Join our club</a>
             </div>
-            <div class="">
+            <div class="col-auto order-1">
               <p class="common_p footer_p text-white">Dolor sit amet ipsum consectetur adipiscing elit sed eiusmod
                 tempor
                 incididunt ut
                 labore dolore magna aliqua. Quis ipsum suspendisse ultrices ipsum sed dolor.</p>
             </div>
           </div>
-          <div class="contact_section d-flex align-items-start">
+          <div class="contact_section d-sm-flex align-items-start">
             <h5 class="text-white">Contact Us</h5>
             <div class="">
               <span class="d-block text-white">586 Avada Avenue, Avadaville 30221 – USA</span>
