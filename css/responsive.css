@@ -224,60 +224,60 @@
         font-size: 54px;
         padding-bottom: 55px;
     }
-        /* ===============Join section============ */
-        #join{
-            padding: 50px 0 50px;
-        }
-        #join ul {
-            padding: 0px 0 14px;
-        }
-        #join ul li {
-            font-size: 16px;
-        }
-        .join_img1 {
-            margin: 0 10px 0 0;
-            height: 420px;
-            width: 220px;
-            padding: 0 20px 0 0; 
-            border-radius: 12px;
-        }
-        .join_img1 {
-            height: 100%;
-            width: 100%;
-           object-fit:fill;
-        }
-        .join_img2 {
-            width: 280px;
-            height: 420px;
-            overflow: hidden;
-        }
-        .join_img2 {
-            height: 100%;
-            width: 100%;
-           object-fit:fill;
-        }
-        /* ==========counter section============== */
-        #counter {
-            padding: 0 5vw 80px;
-        }
-        #counter span {
-            font-size: 50px;
-        }
-            /* =============sports activity============= */
-        #sports_activity {
-            padding: 50px 0 50px;
-        }
-        #sports_activity .section_header p {
-            padding: 35px 0 0px;
-            margin: 0;
-        }
-        #sports_activity .section_footer {
-            margin-top: 50px;
-        }
-        #sports_activity .section_footer span {
-            font-size: 70px;
-        }
-           /* ============video section============= */
+    /* ===============Join section============ */
+    #join{
+        padding: 50px 0 50px;
+    }
+    #join ul {
+        padding: 0px 0 14px;
+    }
+    #join ul li {
+        font-size: 16px;
+    }
+    .join_img1 {
+        margin: 0 10px 0 0;
+        height: 420px;
+        width: 220px;
+        padding: 0 20px 0 0; 
+        border-radius: 12px;
+    }
+    .join_img1 {
+        height: 100%;
+        width: 100%;
+        object-fit:fill;
+    }
+    .join_img2 {
+        width: 280px;
+        height: 420px;
+        overflow: hidden;
+    }
+    .join_img2 {
+        height: 100%;
+        width: 100%;
+        object-fit:fill;
+    }
+    /* ==========counter section============== */
+    #counter {
+        padding: 0 5vw 80px;
+    }
+    #counter span {
+        font-size: 50px;
+    }
+        /* =============sports activity============= */
+    #sports_activity {
+        padding: 50px 0 50px;
+    }
+    #sports_activity .section_header p {
+        padding: 35px 0 0px;
+        margin: 0;
+    }
+    #sports_activity .section_footer {
+        margin-top: 50px;
+    }
+    #sports_activity .section_footer span {
+        font-size: 70px;
+    }
+        /* ============video section============= */
     #video {
         padding-top: 70px;
     }
@@ -340,6 +340,153 @@
         padding-top: 50px;
         margin-top: 40px;
         column-gap: 0;
+    }
+    .contact_section h5 {
+        margin-bottom: 20px;
+    }
+    .copyright {
+        text-align: center;
+    }
+}
+
+/* =====================medium screen============= */
+@media (min-width:768px) and (max-width:991.99px) {
+    /* ============navbar=========== */
+    .navbar{
+        background: rgba(12, 53, 67, 0.767);
+    }
+    .navbar-toggler i{
+        color: #ffffff; 
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar ul{
+        padding-bottom: 20px;
+    }
+     /* ========banner section============== */
+     #banner {
+        padding: 191px 10px;
+        
+    }
+    .banner_wrapper h1 {
+        width: auto;
+        font-size: 54px;
+        padding-bottom: 55px;
+    }
+    /* ===============Join section============ */
+    #join{
+        padding: 50px 0 50px;
+    }
+    #join ul {
+        padding: 0px 0 14px;
+    }
+    #join ul li {
+        font-size: 16px;
+    }
+    .join_img1 {
+        margin: 0 10px 0 0;
+        height: 420px;
+        width: 220px;
+        padding: 0 20px 0 0; 
+        border-radius: 12px;
+    }
+    .join_img1 {
+        height: 100%;
+        width: 100%;
+        object-fit:fill;
+    }
+    .join_img2 {
+        width: 280px;
+        height: 420px;
+        overflow: hidden;
+    }
+    .join_img2 {
+        height: 100%;
+        width: 100%;
+        object-fit:fill;
+    }
+    /* ==========counter section============== */
+    #counter {
+        padding: 0 5vw 80px;
+    }
+    #counter span {
+        font-size: 50px;
+    }
+    /* =============sports activity============= */
+    #sports_activity {
+    padding: 50px 0 50px;
+    }
+    #sports_activity .section_header p {
+        padding: 35px 0 0px;
+        margin: 0;
+    }
+    #sports_activity .section_footer {
+        margin-top: 50px;
+    }
+    #sports_activity .section_footer span {
+        font-size: 80px;
+    }
+    /* ============video section============= */
+    #video {
+        padding-top: 70px;
+    }
+    #video .section_header .video_btns {
+        padding: 50px 0 60px;
+    }
+    .video_item_wrapper{
+        /* flex-direction: column; */
+        row-gap: 30px;
+    }
+    .vdo_item .overlay .overlay_wrapper {
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* =========why choose us section========== */
+    #choose_us {
+        padding: 100px 0 100px;
+        }
+        .choose_us_item_wrapper{
+            row-gap: 50px;
+        }
+        #choose_us .card .card-body h6 {
+            padding: 20px 0 16px;
+        }
+         /* =========news section========== */
+         #news {
+            padding: 50px 0 50px;
+        }
+        #news .news_item_wrapper {
+            padding-top: 0px;
+            row-gap: 50px;
+        }
+        /* =========news section========== */
+        #news {
+            padding: 50px 0 50px;
+        }
+        #news .news_item_wrapper {
+            padding-top: 0px;
+            /* flex-direction: column; */
+            row-gap: 50px;
+        }
+         /* =========footer section========= */
+     .footer_content {
+        padding: 50px 0 20px 0px;
+    }
+    .footer_top{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        row-gap: 30px;
+    }
+    .footer_p {
+        width: auto;
+    }
+    footer .contact_section {
+        padding-top: 50px;
+        margin-top: 40px;
+        column-gap: 100px;
     }
     .contact_section h5 {
         margin-bottom: 20px;
