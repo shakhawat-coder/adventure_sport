@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Yellowtail&display=swap');
 :root{
     --transition: all linear .3s;
 }
@@ -103,7 +103,7 @@ h6{
     line-height: normal;
     padding-bottom: 55px;
 }
-.banner_btns{
+.banner_btns,.video_btns{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,8 +232,9 @@ h6{
 }
 /* <!-- ================sports Activities================= --> */
 #sports_activity{
-    padding: 102px 0 83px;
+    padding: 102px 0 98px;
     background: #0C3543;
+    position: relative;
 }
 #sports_activity .section_header h5{
     color: #FF9600;
@@ -264,6 +265,130 @@ h6{
 #sports_activity .card .card-body p{
     padding-top: 24px;
 }
+#sports_activity .section_footer{
+    margin-top:  83px;
+}
+#sports_activity .section_footer span{
+    color: #FFF;
+    text-align: center;
+    font-family: Arizonia;
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.vector{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.vector img{
+    width: 100%;
+}
+ /* =====================Video section=========== */
+ #video{
+    background: #FF9600;
+    padding-top: 110px;
+ }
+ #video .section_header h2{
+    padding: 26px 0 46px;
+ } 
+ #video .section_header h5{
+    font-family: IBM Plex Sans;
+ } 
+ #video .section_header h2::after{
+    display: none;
+ }
+ #video .section_header .video_btns{
+    padding: 60px 0 100px;
+ }
+ #video .section_header .vdo_btn{
+    padding: 19px 40px;
+    background:  #0C3543;
+    border: 1px solid transparent;
+ }
+ #video .section_header .vdo_btn:hover{
+    padding: 19px 40px;
+    background:  transparent;
+    border: 1px solid white;
+    color: #ffffff
+ }
+ #video .section_header .vdo_btn i{
+    padding-right: 14px;
+ }
+ .vdo_item{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.vdo_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.vdo_item .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000 100%);
+    display: flex;
+    align-items: end;
+    /* justify-content: center; */
+}
+.vdo_item .overlay .overlay_wrapper{
+    padding: 0 0 11px 65px;
+    color: #ffffff;
+}
+.vdo_item .overlay .overlay_wrapper h4{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.vdo_item .overlay .overlay_wrapper h5{
+    padding: 19px 0 45px;
+    position: relative;
+}
+.vdo_item .overlay .overlay_wrapper h5::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 285px;
+    height: 1px;
+    background: #A0A0A0;
+}
+
+.team_image .overlay .overlay_wrapper i{
+    width: 55px;
+    padding: 18px;
+    color: #f38181;
+    background: #fce38a;
+}
+.team_image .overlay .overlay_wrapper i:hover{
+    width: 56px;
+    color: #ffffff;
+    background: #f38181;
+}
+.team_image .overlay .overlay_wrapper h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.team_image:hover .overlay{
+    height: 100%;
+    opacity: 1;
+    transition: .3s;
+}
+
 
 /* =================Why choose us section================== */
 #choose_us{
