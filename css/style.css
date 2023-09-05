@@ -211,6 +211,10 @@ h6{
 }
 .join_btn{
     padding: 18px 40px;
+    border: 1px solid transparent;
+}
+.join_btn:hover{
+    border: 1px solid #FF9600;
 }
 
 /* ==================Counter section============= */
