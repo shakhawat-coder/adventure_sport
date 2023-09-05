@@ -490,24 +490,27 @@ footer{
     /* padding: 80px 73px; */
 }
 .footer_image{
-    width: 30vw;
-    height: 705px;
+    width: 34vw;
+    height: 704px;
 }
 .footer_image img{
     width: 100%;
     height: 100%;
 }
 .footer_content{
-    padding: 80px 0 70px 40px;
+    padding: 80px 0 70px 0px;
 }
 .footer_content .footer_logo{
     padding-bottom: 40px;
+}
+.footer_top{
+    column-gap: 50px;
 }
 .footer_btn{
     padding: 18px 42px;
 }
 .footer_p{
-    width: 560px;
+    width: 540px;
 }
 footer .contact_section{
     padding-top: 67px;
